@@ -4,7 +4,6 @@ from fastapi import (FastAPI, File, UploadFile, HTTPException)
 import config
 from ingest import DocumentIndexer  
 from response import OutputRetriever
-from llama_index.core import Settings
 
 os.environ["OPENAI_API_KEY"] = config.API_KEY
 
