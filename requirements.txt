@@ -1,0 +1,9 @@
+llama-index == 0.10.30
+llama-index-embeddings-huggingface == 0.2.0
+fastapi == 0.110.2
+openai == 1.23.1
+pypdf == 4.2.0
+uvicorn == 0.29.0
+python-multipart == 0.0.9
+pydantic == 2.7.0
+python-decouple == 3.8
